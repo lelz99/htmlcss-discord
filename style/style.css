@@ -17,23 +17,13 @@ body{
     justify-content: center;
 }
 
-div > div {
-    border: 2px dashed black;
-}
-
 section{
     padding: 60px;
 }
 
 footer{
     background-color: black;
-    padding: 50px;
-}
-
-.button{
-    flex-basis: 5%;
-    background-color: salmon;
-    padding: 10px;
+    padding-top: 50px;
 }
 
 a{
@@ -59,8 +49,8 @@ a{
     background-color: violet;
 }
 .breakline{
-    border: 1px solid white;
-    margin-top: 25px;
+    border: 1px solid blueviolet;
+    margin-bottom: 30px;
 }
 
 /* Nav */
@@ -256,8 +246,6 @@ li{
 
 .col{
     flex-basis: 25%;
-    min-height: 400px;
-    border: 2px dashed white;
     color: white;
 }
 
@@ -268,13 +256,17 @@ li{
     min-height: 1.5rem;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
 }
 
 .button.left{
     margin-left: -12px;
 }
 
-.button.right{
+.registration-button{
     margin-right: -12px;
+    background-color: blueviolet;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
 }
