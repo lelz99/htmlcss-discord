@@ -5,13 +5,15 @@
 	box-sizing: border-box;
 }
 
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 /* Generics */
 
 .container{
-    max-width: 1000px;
+    max-width: 1080px;
     margin: 0 auto;
-    display: flex;
     justify-content: center;
 }
 
@@ -34,7 +36,16 @@ footer{
     padding: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Utils */
+
+.flex{
+    display: flex;
+}
 
 .bg-lightgrey{
     background-color: lightgrey;
@@ -48,33 +59,90 @@ footer{
 /* Nav */
 
 nav{
-    background-color: aqua;
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 .center-nav{
     flex-basis: 50%;
-    background-color: goldenrod;
-    min-height: 1.5rem;
-    
+    flex-grow: 1;
+    align-self: center;
+    justify-content: center;
+    gap: 30px;
+    font-weight: 600;
 }
 
+
 .side-nav{
-    flex-basis: 25%;
-    background-color: goldenrod;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.login-button{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
 }
 
 /* Header */
 
 header{
-    background-color: blue;
-    padding: 20px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
 }
 
 .main-header{
-    flex-basis: 70%;
-    background-color: fuchsia;
-    min-height: 250px;
+    min-height: 10px;
+    margin: auto;
+    font-size: larger;
+    text-align: center;
+}
+
+.jumbotron{
+    text-align: center;
+    min-height: 460px;
+}
+
+h1{
+    margin: 100px auto 50px;
+    font-size: 50px;
+}
+
+p{
+    line-height: 30px;
+    text-align: center;
+}
+
+/* Header Button */
+
+.download-button{
+    margin-top: 30px;
+    font-size: 1rem;
+    padding: 15px 50px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.mac{
+    background-color: white;
+    color: black;
+    margin-right: 30px;
+}
+
+.browser{
+    background-color: black;
+    color: white;
+}
+
+i{
+    margin-right: 10px;
 }
 
 /* Main */
