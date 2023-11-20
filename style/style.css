@@ -22,7 +22,7 @@ div > div {
 }
 
 section{
-    padding: 20px;
+    padding: 60px;
 }
 
 footer{
@@ -45,6 +45,10 @@ a{
 
 .flex{
     display: flex;
+}
+
+.bg-white{
+    background-color: white;
 }
 
 .bg-lightgrey{
@@ -70,12 +74,6 @@ nav{
     justify-content: center;
     gap: 30px;
     font-weight: 600;
-}
-
-
-.side-nav{
-    justify-content: center;
-    align-items: center;
 }
 
 .logo{
@@ -115,7 +113,7 @@ h1{
     font-size: 50px;
 }
 
-p{
+.text-header{
     line-height: 30px;
     text-align: center;
 }
@@ -149,14 +147,35 @@ i{
 
 .large-box{
     flex-basis: 70%;
-    background-color: dodgerblue;
-    min-height: 250px;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.server-image{
+    background-image: url(../img/item1.svg);
+}
+
+.group-image{
+    background-image: url(../img/item2.svg);
+}
+
+.fandom-image{
+    background-image: url(../img/item3.svg);
 }
 
 .small-box{
     flex-basis: 30%;
-    background-color: pink;
-    min-height: 300px;
+    min-height: 500px;
+} 
+
+h2{
+    font-size: 40px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.text-section{
+    line-height: 30px;
 }
 
 .square-green{
