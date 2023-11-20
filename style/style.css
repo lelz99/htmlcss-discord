@@ -55,6 +55,9 @@ a{
     background-color: lightgrey;
 }
 
+.bg-violet{
+    background-color: violet;
+}
 .breakline{
     border: 1px solid white;
     margin-top: 25px;
@@ -176,41 +179,72 @@ h2{
 
 .text-section{
     line-height: 30px;
+    font-size: 20px;
 }
 
 .square-green{
     flex-basis: 100%;
-    background-color: green;
-    min-height: 1000px;
+    text-align: center;
+
+
 }
 
-/* Primary Footer */
+h3{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+/* Top Footer */
 
 .left-footer{
     flex-basis: 25%;
     min-height: 400px;
-    background-color: lightsalmon;
 }
 
 .right-footer{
     flex-basis: 75%;
     min-height: 400px;
-    background-color: lightskyblue;
     display: flex;
 }
 
 .col{
-    flex-basis: 75%;
+    flex-basis: 25%;
     min-height: 400px;
-    background-color: lightskyblue;
     border: 2px dashed white;
 }
 
-/* Secondary Footer */
+.fa-brands{
+    color: white;
+}
 
-.secondary-footer{
+.fa-chevron-down{
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.sium{
+    margin-bottom: 20px;
+}
+
+#italian-flag{
+    width: 30px;
+    vertical-align: middle;
+}
+
+h4{
+    color: blueviolet;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h5{
+    display: inline-block;
+    color: white;
+}
+
+/* Bottom Footer */
+
+.bottom-footer{
     flex-basis: 100%;
-    background-color: aqua;
     min-height: 1.5rem;
     display: flex;
     justify-content: space-between;
