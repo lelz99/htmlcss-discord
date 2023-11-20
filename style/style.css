@@ -1,0 +1,139 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* Generics */
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+div > div {
+    border: 2px dashed black;
+}
+
+section{
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+}
+
+.button{
+    flex-basis: 5%;
+    background-color: salmon;
+    padding: 10px;
+}
+
+/* Utils */
+
+.bg-lightgrey{
+    background-color: lightgrey;
+}
+
+.breakline{
+    border: 1px solid white;
+    margin-top: 25px;
+}
+
+/* Nav */
+
+nav{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.center-nav{
+    flex-basis: 50%;
+    background-color: goldenrod;
+    min-height: 1.5rem;
+    
+}
+
+.side-nav{
+    flex-basis: 25%;
+    background-color: goldenrod;
+}
+
+/* Header */
+
+header{
+    background-color: blue;
+    padding: 20px;
+}
+
+.main-header{
+    flex-basis: 70%;
+    background-color: fuchsia;
+    min-height: 250px;
+}
+
+/* Main */
+
+.large-box{
+    flex-basis: 70%;
+    background-color: dodgerblue;
+    min-height: 250px;
+}
+
+.small-box{
+    flex-basis: 30%;
+    background-color: pink;
+    min-height: 300px;
+}
+
+.square-green{
+    flex-basis: 100%;
+    background-color: green;
+    min-height: 1000px;
+}
+
+/* Primary Footer */
+
+.left-footer{
+    flex-basis: 25%;
+    min-height: 400px;
+    background-color: lightsalmon;
+}
+
+.right-footer{
+    flex-basis: 75%;
+    min-height: 400px;
+    background-color: lightskyblue;
+    display: flex;
+}
+
+.col{
+    flex-basis: 75%;
+    min-height: 400px;
+    background-color: lightskyblue;
+    border: 2px dashed white;
+}
+
+/* Secondary Footer */
+
+.secondary-footer{
+    flex-basis: 100%;
+    background-color: aqua;
+    min-height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.button.left{
+    margin-left: -12px;
+}
+
+.button.right{
+    margin-right: -12px;
+}
